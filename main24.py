@@ -10,7 +10,7 @@ class account:
             print("insufficient funds")
     def credit(self,amount):
             self.balance+=amount
-            print(f"{amount}is credited,bal is{self.getbal}")
+            print(f"{amount}is credited,bal is{self.getbal()}")
     def getbal(self):
         return self.balance
 acc1=account(1000,"acc123")
